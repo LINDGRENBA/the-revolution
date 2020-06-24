@@ -9,7 +9,6 @@
     "lint": "eslint src/*.js",
     "test": "jest",
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
-
   },
   "keywords": [],
   "author": "Britt Lindgren and Mariel Hamson",
