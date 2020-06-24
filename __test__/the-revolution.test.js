@@ -11,4 +11,10 @@ describe('Animal', () => {
     expect(pig.level).toEqual(1);
     expect(pig.title).toEqual("food");
   });
+
+  test('should return true if human object is created', () => {
+    const human = new Animal();
+    let result = human.addHumanChar();
+    expect(result).toEqual(false);
+  });
 });
