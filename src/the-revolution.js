@@ -9,7 +9,11 @@ export class Animal {
     this.title = title;
   }
 
-}
+  addHumanChar(){
+    return true;
+  }
+
+};
 
 //  switch case 1: let chicken = new Animal (5,2,4,level 1, food)
 
