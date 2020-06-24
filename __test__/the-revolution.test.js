@@ -15,6 +15,6 @@ describe('Animal', () => {
   test('should return true if human object is created', () => {
     const human = new Animal();
     let result = human.addHumanChar();
-    expect(result).toEqual(false);
+    expect(result).toEqual(true);
   });
 });
