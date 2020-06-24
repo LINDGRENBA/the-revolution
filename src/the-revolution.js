@@ -9,9 +9,19 @@ export class Animal {
     this.title = title;
   }
 
-  addHumanChar(){
-    return true;
-  }
+  // let animalCreated = [];
+
+  // pushAnimalToArray() {
+  //   animalCreated.push(this.)
+  // }
+
+  // if animalCreated.length === 1 {
+  //   create a human object
+  // }
+
+  // addHumanChar(){
+  //   let human = new Animal(5, 7, 3, 9, 1, "President");
+  // }
 
 };
 
