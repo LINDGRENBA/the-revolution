@@ -52,7 +52,7 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 
 | Characters |  Properties  | Titles | Battle Modes | Level Up |  
 | ------- | ----- | ------ | ------ | ------- |
-| human, pig, cow, chicken, fish | charm, wisdom, snark, tastiness, level, title | food, pet, companion, ruler, free | Gorilla Warfare(tastiness), Dance Off(charm), War of Wits(snark), Debate Battle(wisdom) | numbers 1 - 5 |
+| human, pig, cow, chicken, fish | charm, wisdom, snark, tastiness, level, title | food, pet, companion, ruler, president | Gorilla Warfare(tastiness), Dance Off(charm), War of Wits(snark), Debate Battle(wisdom) | numbers 1 - 5 |
 
 
 ## Known Bugs
