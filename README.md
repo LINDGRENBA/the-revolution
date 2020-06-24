@@ -35,9 +35,13 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 
 ## Specifications
 
-| Behavior | Input | Output |  Completed(Y/N?)  |
+| Behavior | Input | Output |  Completed(Y/N?)  | 
 | -------- | ----- | ------ | -------- |
-|    |   |    |    |
+|  Create constructors for various character objects that a user can choose from  | Character is selected by user  | Create character object  |  N  |
+|  Create constructor for human object (NPC)| Animal character is selected by user  | Create human character object  |  N  |
+|  Add randomly assigned properties for human object  | No input  | assign human object properties  |  N  |
+|  Assign unique properties to character object based on selection  | User selects pig character  | character object has properties of 10 charm and 5 wisdom |  N  |
+|  Gorilla Warfare - program runs specific battle type, using random number generator to add to attribute value | Charm battle, total dice roll is 6 | add 6 to charm attribute |  N  |
 
 
 ## Known Bugs
