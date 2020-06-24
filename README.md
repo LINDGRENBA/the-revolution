@@ -41,7 +41,18 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 |  Create constructor for human object (NPC)| Animal character is selected by user  | Create human character object  |  N  |
 |  Add randomly assigned properties for human object  | No input  | assign human object properties  |  N  |
 |  Assign unique properties to character object based on selection  | User selects pig character  | character object has properties of 10 charm and 5 wisdom |  N  |
-|  Gorilla Warfare - program runs specific battle type, using random number generator to add to attribute value | Charm battle, total dice roll is 6 | add 6 to charm attribute |  N  |
+|  Battle Mode - program runs chosen battle type, animal gets 5 rolls, human gets 5 rolls, total is added to related property | Gorilla Warfare, War of Wits, Dance Off, Debate Battle - ex: total dice roll is 6 | add 6 to tastiness, snark, charm, wisdom property |  N  |
+| Compare updated property values from Battle Mode and check winner  |  Chicken.tastiness = 5, Human.tastiness = 3  |  Chicken wins the battle  |  N  |
+| Character level property will increase once total of other properties reaches pre-defined number | Chicken object, total property value is 10 | Chicken level increases |  N  |
+|  When character object's level increases to specific predefined number, character title is updated |  Chicken level changes to 2 | title:food updates to title:pet |  N  |
+|  When Human's level property reaches a predefined number, trigger Big Boss Battle Mode, if human wins, animal title is reset to food  |  Human beats Chicken in Big Boss Battle  |  Chicken title:food  |
+|  Animal Character wins the game if they achieve title:free  |  Chicken levels up enough to update title to free  |  Game Over, Chicken wins!!!  |
+
+## Game Details
+
+| Characters |  Properties  | Titles | Battle Modes | Level Up |  
+| ------- | ----- | ------ | ------ | ------- |
+| human, pig, cow, chicken, fish | charm, wisdom, snark, tastiness, level, title | food, pet, companion, ruler, free | Gorilla Warfare(tastiness), Dance Off(charm), War of Wits(snark), Debate Battle(wisdom) | numbers 1 - 5 |
 
 
 ## Known Bugs
