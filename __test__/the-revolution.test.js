@@ -35,7 +35,6 @@ describe('Character', () => {
     chicken.checkCharacterType();
     chicken.gorillaWarfare();
     chicken.levelUp();
-    console.log(chicken.tastiness);
     expect(chicken.level).toBe(1);
   });
 
@@ -50,8 +49,8 @@ describe('Character', () => {
 
   test('should return true if object level is a predefined value', () => {
     const human = new Character("human");
-    human.checkLevel();
-    expect(human.level).toBe(5);
+    human.level = 5;
+    expect(human.checkLevel()).toBe(true);
   });
 
 });

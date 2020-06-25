@@ -42,9 +42,14 @@ export class Character {
     }
   }
 
-
+//to be run after every battle / level up? //
   checkLevel(){
-
+    if(this.level === 5) {
+      // then run ultimateBattle();
+      return true;
+    } else {
+      return false;
+    }
   }
 
   // ultimateBattle(){
