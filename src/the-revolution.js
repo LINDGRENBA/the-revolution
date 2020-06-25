@@ -1,6 +1,6 @@
-export class Animal {
-  constructor (charm, wisdom, snark, tastiness, level, title) {
-    this.attributes = []
+export class Character {
+  constructor (type, charm, wisdom, snark, tastiness, level, title) {
+    this.type = type;
     this.charm = charm;
     this.wisdom = wisdom;
     this.snark = snark;
