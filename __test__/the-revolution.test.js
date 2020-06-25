@@ -32,7 +32,10 @@ describe('Character', () => {
 
   test('should increase level by one once total of certain properties reaches given value', () => {
     const chicken = new Character("chicken");
+    chicken.checkCharacterType();
+    chicken.gorillaWarfare();
     chicken.levelUp();
+    console.log(chicken.tastiness);
     expect(chicken.level).toBe(1);
   });
 

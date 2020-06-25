@@ -21,6 +21,7 @@ export class Character {
   gorillaWarfare() {
     this.tastiness += 5;
   }
+  
   checkTastiness(character) {
     if (this.tastiness > character.tastiness) {
       return true;
@@ -30,8 +31,9 @@ export class Character {
   }
 
   levelUp() {
-  // if (this.charm + this.wisdom + this.tastiness > 20 {
-  // this.level +=1
+  if (this.charm + this.wisdom + this.tastiness + this.snark > 16) {
+    this.level +=1
+    }
   }
 }
   
