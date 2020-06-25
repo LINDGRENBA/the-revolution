@@ -29,6 +29,10 @@ export class Character {
     }
   }
 
+  levelUp() {
+  // if (this.charm + this.wisdom + this.tastiness > 20 {
+  // this.level +=1
+  }
 }
   
 

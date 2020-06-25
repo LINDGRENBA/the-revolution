@@ -30,5 +30,11 @@ describe('Character', () => {
     expect(chicken.checkTastiness(human)).toBe(true);
   });
 
+  test('should increase level by one once total of certain properties reaches given value', () => {
+    const chicken = new Character("chicken");
+    chicken.levelUp();
+    expect(chicken.level).toBe(1);
+  });
+
 });
 
