@@ -48,5 +48,11 @@ describe('Character', () => {
     expect(chicken.title).toBe("pet");
   });
 
+  test('should return true if object level is a predefined value', () => {
+    const human = new Character("human");
+    human.checkLevel();
+    expect(human.level).toBe(5);
+  });
+
 });
 

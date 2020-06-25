@@ -43,7 +43,7 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 |  Battle Mode - program runs chosen battle type, animal gets 5 rolls, human gets 5 rolls, total is added to related property | Gorilla Warfare, War of Wits, Dance Off, Debate Battle - ex: total dice roll is 6 | add 6 to tastiness, snark, charm, wisdom property |  Y  |
 | Compare updated property values from Battle Mode and check winner  |  Chicken.tastiness = 5, Human.tastiness = 3  |  Chicken wins the battle  |  Y  |
 | Character level property will increase once total of other properties reaches pre-defined number | Chicken object, total property value is 10 | Chicken level increases |  Y  |
-|  When character object's level increases to specific predefined number, character title is updated |  Chicken level changes to 2 | title:food updates to title:pet |  N  |
+|  When character object's level increases to specific predefined number, character title is updated |  Chicken level changes to 2 | title:food updates to title:pet |  Y  |
 |  When Human's level property reaches a predefined number, trigger Big Boss Battle Mode, if human wins, animal title is reset to food  |  Human beats Chicken in Big Boss Battle  |  Chicken title:food  |
 |  Animal Character wins the game if they achieve title:free  |  Chicken levels up enough to update title to free  |  Game Over, Chicken wins!!!  |
 

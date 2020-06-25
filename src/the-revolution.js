@@ -42,6 +42,15 @@ export class Character {
     }
   }
 
+
+  checkLevel(){
+
+  }
+
+  // ultimateBattle(){
+
+  // }
+
 }
   
 
