@@ -35,6 +35,11 @@ export class Character {
     this.level +=1
     }
   }
+
+  updateTitle(){
+    
+  }
+
 }
   
 

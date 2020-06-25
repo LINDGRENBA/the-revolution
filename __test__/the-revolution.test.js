@@ -39,5 +39,14 @@ describe('Character', () => {
     expect(chicken.level).toBe(1);
   });
 
+  test('should update title once level increases by 1', () => {
+    const chicken = new Character("chicken");
+    chicken.checkCharacterType();
+    chicken.gorillaWarfare();
+    chicken.levelUp();
+    chicken.updateTitle();
+    expect(chicken.title).toBe("pet");
+  });
+
 });
 
