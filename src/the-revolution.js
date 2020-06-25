@@ -18,6 +18,9 @@ export class Character {
     }    
   }
 
+  gorillaWarfare() {
+    this.tastiness += 5;
+  }
   checkTastiness(character) {
     if (this.tastiness > character.tastiness) {
       return true;
@@ -25,9 +28,7 @@ export class Character {
       return false;
     }
   }
-  gorillaWarfare() {
-    
-  }
+
 }
   
 

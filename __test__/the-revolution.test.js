@@ -13,21 +13,21 @@ describe('Character', () => {
     expect(chicken.charm).toEqual(5);
   });
 
+  test('should add amount to tastiness property for both characters in battle', () => {
+    const chicken = new Character("chicken");
+    const human = new Character("human");
+    chicken.gorillaWarfare();
+    human.gorillaWarfare();
+    expect(chicken.tastiness).toBe(7);
+    expect(human.tastiness).toBe(7);
+  });
+
   test('should compare stats for tastiness', () => {
     const chicken = new Character("chicken");
     const human = new Character("human");
     chicken.checkCharacterType();
     human.checkCharacterType();
     expect(chicken.checkTastiness(human)).toBe(true);
-  });
-
-  test('should add random amount to tastiness property for both characters in battle', () => {
-    const chicken = new Character("chicken");
-    const human = new Character("human");
-    chicken.gorillaWarfare();
-    human.gorillaWarfare();
-    expect(chicken.tastiness).toBe(5);
-    expect(human.tastiness).toBe(5);
   });
 
 });
