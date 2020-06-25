@@ -1,28 +1,32 @@
 export class Character {
-  constructor (type, charm, wisdom, snark, tastiness, level, title) {
+  constructor (type) {
     this.type = type;
-    this.charm = charm;
-    this.wisdom = wisdom;
-    this.snark = snark;
-    this.tastiness = tastiness;
-    this.level = level;
-    this.title = title;
+    this.charm;
+    this.wisdom;
+    this.snark;
+    this.tastiness;
+    this.level;
+    this.title;
   }
 
   
 
-  checkCharacterType(charType) {
-  // if characterInput === "chicken" {
-  //   chicken = new Character 
-  //   this.charm = 3
-  //   this.wisdom = 5 etc.
-
-  // } else if characterInput === pig {
-  //   assign properties
-  // }
-
+  checkCharacterType() {
+    if(this.type === "chicken") {
+      // const chicken = new Character("chicken", 3, 0, 0, 0, 0, "food");
+      this.charm = 3;
+    }
   }
+  // checkTastiness(character) {
+  //   // if (this.tastiness > character.tastiness) {
+  //   //  return true
+  //   //} else {
+  //   //  return false
+  // }
 }
+
+
+
 
 //  switch case 1: let chicken = new Animal (5,2,4,level 1, food)
 
@@ -38,3 +42,7 @@ export class Character {
 //     // code block
 
 
+    // switch(charType) {
+    //   case charType = "chicken":
+    //     const chicken = new Character("chicken", 3, 0, 0, 0, 0, "food");
+    // }
