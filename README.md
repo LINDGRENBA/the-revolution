@@ -37,9 +37,8 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 
 | Behavior | Input | Output |  Completed(Y/N?)  | 
 | -------- | ----- | ------ | -------- |
-|  Create constructors for various character objects that a user can choose from  | Character is selected by user  | Create character object  |  Y  |
-|  Create constructor for human object (NPC)| Animal character is selected by user  | Create human character object  |  Y  |
-|  Add randomly assigned properties for human object  | No input  | assign human object properties  |  N  |
+|  Create constructor for various character objects  | Character is pig  | Create character object  |  Y  |
+|  Add assigned properties for objects  | No input  | assign object properties  |  N  |
 |  Assign unique properties to character object based on selection  | User selects pig character  | character object has properties of 10 charm and 5 wisdom |  N  |
 |  Battle Mode - program runs chosen battle type, animal gets 5 rolls, human gets 5 rolls, total is added to related property | Gorilla Warfare, War of Wits, Dance Off, Debate Battle - ex: total dice roll is 6 | add 6 to tastiness, snark, charm, wisdom property |  N  |
 | Compare updated property values from Battle Mode and check winner  |  Chicken.tastiness = 5, Human.tastiness = 3  |  Chicken wins the battle  |  N  |

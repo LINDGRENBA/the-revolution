@@ -9,6 +9,19 @@ export class Character {
     this.title = title;
   }
 
+  
+
+  checkCharacterType(charType) {
+  // if characterInput === "chicken" {
+  //   chicken = new Character 
+  //   this.charm = 3
+  //   this.wisdom = 5 etc.
+
+  // } else if characterInput === pig {
+  //   assign properties
+  // }
+
+  }
 }
 
 //  switch case 1: let chicken = new Animal (5,2,4,level 1, food)
@@ -23,5 +36,5 @@ export class Character {
 //     break;
 //   default:
 //     // code block
-// }
+
 
