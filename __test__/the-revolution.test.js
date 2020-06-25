@@ -10,7 +10,7 @@ describe('Character', () => {
   test('should assign different properties for different types', () => {
     const chicken = new Character("chicken");
     chicken.checkCharacterType();
-    expect(chicken.charm).toEqual(3);
+    expect(chicken.charm).toEqual(5);
   });
 
   test('should compare stats for tastiness', () => {
