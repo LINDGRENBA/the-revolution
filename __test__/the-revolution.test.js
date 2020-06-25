@@ -13,10 +13,10 @@ describe('Character', () => {
     expect(chicken.charm).toEqual(3);
   });
 
-  // test('should compare stats for tastiness', () => {
-  //   const chicken = new Character();
-  //   const human = new Character();
-  //   expect(chicken.checkTastiness(human)).toBe(true)
-  // })
+  test('should compare stats for tastiness', () => {
+    const chicken = new Character();
+    const human = new Character();
+    expect(chicken.checkTastiness(human)).toBe(true)
+  });
 });
 

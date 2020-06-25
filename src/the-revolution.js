@@ -9,20 +9,18 @@ export class Character {
     this.title;
   }
 
-  
-
   checkCharacterType() {
     if(this.type === "chicken") {
-      // const chicken = new Character("chicken", 3, 0, 0, 0, 0, "food");
       this.charm = 3;
     }
   }
-  // checkTastiness(character) {
-  //   // if (this.tastiness > character.tastiness) {
-  //   //  return true
-  //   //} else {
-  //   //  return false
-  // }
+
+  checkTastiness(character) {
+    // if (this.tastiness > character.tastiness) {
+    //  return true
+    // } else {
+    //  return false
+  }
 }
 
 
