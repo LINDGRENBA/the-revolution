@@ -46,15 +46,16 @@ export class Character {
   checkLevel(){
     if(this.level === 5) {
       // then run ultimateBattle();
-      return true;
+      this.ultimateBattle();
+      return true; //need to return result of ultimateBattle
     } else {
       return false;
     }
   }
 
-  // ultimateBattle(){
-
-  // }
+  ultimateBattle(chicken){
+    // run random Number, assign to properties, if chicken > human, return this.title = queen
+  };
 
 }
   

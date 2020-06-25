@@ -53,5 +53,10 @@ describe('Character', () => {
     expect(human.checkLevel()).toBe(true);
   });
 
+  test ('change title of battle winner to Queen of the Universe', () => {
+    const human = new Character("human");
+    const chicken = new Character("chicken");
+    human.ultimateBattle();
+    expect(human.ultimateBattle(chicken)).toBe("Queen of the Universe");
+  });
 });
-
