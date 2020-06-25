@@ -14,9 +14,11 @@ describe('Character', () => {
   });
 
   test('should compare stats for tastiness', () => {
-    const chicken = new Character();
-    const human = new Character();
-    expect(chicken.checkTastiness(human)).toBe(true)
+    const chicken = new Character("chicken");
+    const human = new Character("human");
+    chicken.checkCharacterType();
+    human.checkCharacterType();
+    expect(chicken.checkTastiness(human)).toBe(true);
   });
 });
 
