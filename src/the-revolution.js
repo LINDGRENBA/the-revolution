@@ -37,7 +37,9 @@ export class Character {
   }
 
   updateTitle(){
-    
+    if(this.level === 1) {
+      this.title = "pet";
+    }
   }
 
 }
