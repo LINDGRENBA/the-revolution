@@ -59,4 +59,13 @@ describe('Character', () => {
     human.ultimateBattle();
     expect(human.ultimateBattle(chicken)).toBe("Queen of the Universe");
   });
+
+  // test('should return the correct assigned property for a human object', () => {
+  //   let human = new Animal()
+  //   // addHumanChar().charm;
+  //   expect(addHumanChar().charm).toEqual(0);
+  // });
+
+
+  //human object should exist if animal object has been made
 });

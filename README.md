@@ -54,6 +54,7 @@ The animals are sick of being exploited. Revolution is now. Time for humans to g
 | human, pig, cow, chicken, fish | charm, wisdom, snark, tastiness, level, title | food, pet, companion, ruler, Queen-of-the-Universe | Gorilla Warfare(tastiness), Dance Off(charm), War of Wits(snark), Debate Battle(wisdom) | numbers 1 - 5 |
 
 
+
 ## Known Bugs
 
 | Location (html/css/js & specific location if known) |  Message  | Bug | Resolved (Y/N) |  How was the issue resolved?  |
