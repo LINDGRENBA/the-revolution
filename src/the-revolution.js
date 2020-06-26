@@ -1,41 +1,71 @@
-export class Animal {
-  constructor (charm, wisdom, snark, tastiness, level, title) {
-    this.attributes = []
-    this.charm = charm;
-    this.wisdom = wisdom;
-    this.snark = snark;
-    this.tastiness = tastiness;
-    this.level = level;
-    this.title = title;
+export class Character {
+  constructor (type) {
+    this.type = type;
+    this.charm = 2;
+    this.wisdom = 1;
+    this.snark = 4;
+    this.tastiness = 2;
+    this.level = 0;
+    this.title = "food";
   }
 
-  // let animalCreated = [];
+  checkCharacterType() {
+    if(this.type === "chicken") {
+      this.charm += 3;
+      this.tastiness +=1;
+    } else if (this.type === "human") {
+      this.charm += 10
+    }    
+  }
 
-  // pushAnimalToArray() {
-  //   animalCreated.push(this.)
-  // }
+  gorillaWarfare() {
+    this.tastiness += 5;
+  }
+  
+  checkTastiness(character) {
+    if (this.tastiness > character.tastiness) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
-  // if animalCreated.length === 1 {
-  //   create a human object
-  // }
+  levelUp() {
+  if (this.charm + this.wisdom + this.tastiness + this.snark > 16) {
+    this.level +=1
+    }
+  }
 
-  // addHumanChar(){
-  //   let human = new Animal(5, 7, 3, 9, 1, "President");
-  // }
+  updateTitle(){
+    if(this.level === 1) {
+      this.title = "pet";
+    }
+  }
 
-};
+//to be run after every battle / level up? //
+  checkLevel(){
+    if(this.level === 5) {
+      // then run ultimateBattle();
+      this.ultimateBattle();
+      return true; //need to return result of ultimateBattle
+    } else {
+      return false;
+    }
+  }
 
-//  switch case 1: let chicken = new Animal (5,2,4,level 1, food)
+  ultimateBattle(chicken){
+    // run random Number, assign to properties, if chicken > human, return this.title = queen
+  };
 
-// switch case 2: let pig = new Animal (1, 2, 3, 4, )
-// switch(expression) {
-//   case x:
-//     // code block
-//     break;
-//   case y:
-//     // code block
-//     break;
-//   default:
-//     // code block
-// }
+}
+  
+
+
+// Gorilla Warfare(tastiness), Dance Off(charm), War of Wits(snark), Debate Battle(wisdom)
+
+
+//One test suite per BDD spec
+// You don't have to test 100% of your test behaviors.
+//***DON'T FORGET TO PASS PARAMATERS AND RUN WHATEVER FUNCTIONS/METHODS YOU NEED IN ORDER TO HAVE ALL THE INFORMATION FOR THAT TEST */
+
 
